@@ -1,0 +1,498 @@
+[
+  {
+      "question": "How do I install nginx on ubuntu?",
+      "answer": "Run: sudo apt update && sudo apt install nginx"
+  },
+  {
+    "question": "How do I create a new git branch?",
+    "answer": "Run: git checkout -b branch-name"
+  },
+  {
+    "question": "How do I create a new git branch and pull?",
+    "answer": "Run: git checkout -b branch-name"
+  },
+  {
+      "question": "How do I check disk space in Linux?",
+      "answer": "Run: df -h"
+  },
+  {
+      "question": "How do I list all files including hidden ones?",
+      "answer": "Run: ls -la"
+  },
+  {
+      "question": "How do I find a file by name?",
+      "answer": "Run: find /path/to/search -name 'filename'"
+  },
+  {
+      "question": "How do I check running processes?",
+      "answer": "Run: top or htop"
+  },
+  {
+      "question": "How do I kill a process?",
+      "answer": "Run: kill -9 PID (replace PID with actual process ID)"
+  },
+  {
+      "question": "How do I search for text in files?",
+      "answer": "Run: grep 'search-term' /path/to/files"
+  },
+  {
+      "question": "How do I compress a directory to tar.gz?",
+      "answer": "Run: tar -czvf archive-name.tar.gz /path/to/directory"
+  },
+  {
+      "question": "How do I extract a tar.gz file?",
+      "answer": "Run: tar -xzvf file.tar.gz"
+  },
+  {
+      "question": "How do I check my IP address?",
+      "answer": "Run: ip a or ifconfig (on older systems)"
+  },
+  {
+      "question": "How do I ping a host?",
+      "answer": "Run: ping example.com"
+  },
+  {
+      "question": "How do I check network connections?",
+      "answer": "Run: netstat -tulnp or ss -tulnp"
+  },
+  {
+      "question": "How do I clone a git repository?",
+      "answer": "Run: git clone https://github.com/user/repo.git"
+  },
+  {
+      "question": "How do I check git status?",
+      "answer": "Run: git status"
+  },
+  {
+      "question": "How do I add all files to git staging?",
+      "answer": "Run: git add ."
+  },
+  {
+      "question": "How do I commit changes in git?",
+      "answer": "Run: git commit -m 'Commit message'"
+  },
+  {
+      "question": "How do I push to a git remote?",
+      "answer": "Run: git push origin branch-name"
+  },
+  {
+      "question": "How do I pull latest changes in git?",
+      "answer": "Run: git pull"
+  },
+  {
+      "question": "How do I check system information?",
+      "answer": "Run: uname -a or lsb_release -a"
+  },
+  {
+      "question": "How do I check memory usage?",
+      "answer": "Run: free -h"
+  },
+  {
+      "question": "How do I create a symbolic link?",
+      "answer": "Run: ln -s /path/to/original /path/to/link"
+  },
+  {
+      "question": "How do I change file permissions?",
+      "answer": "Run: chmod 755 filename"
+  },
+  {
+      "question": "How do I change file ownership?",
+      "answer": "Run: chown user:group filename"
+  },
+  {
+      "question": "How do I search command history?",
+      "answer": "Run: history | grep 'search-term'"
+  },
+  {
+      "question": "How do I create a directory?",
+      "answer": "Run: mkdir directory-name"
+  },
+  {
+      "question": "How do I remove a directory?",
+      "answer": "Run: rm -r directory-name"
+  },
+  {
+      "question": "How do I edit a file in nano?",
+      "answer": "Run: nano filename"
+  },
+  {
+      "question": "How do I edit a file in vim?",
+      "answer": "Run: vim filename, then press i to insert, ESC to exit insert mode, and :wq to save and quit"
+  },
+  {
+      "question": "How do I check CPU information?",
+      "answer": "Run: lscpu"
+  },
+  {
+      "question": "How do I check logged in users?",
+      "answer": "Run: who"
+  },
+  {
+      "question": "How do I run a command as another user?",
+      "answer": "Run: sudo -u username command"
+  },
+  {
+      "question": "How do I schedule a cron job?",
+      "answer": "Run: crontab -e, then add your schedule in the format: * * * * * command-to-execute"
+  },
+  {
+      "question": "How do I list cron jobs?",
+      "answer": "Run: crontab -l"
+  },
+  {
+      "question": "How do I check service status?",
+      "answer": "Run: systemctl status service-name"
+  },
+  {
+      "question": "How do I restart a service?",
+      "answer": "Run: sudo systemctl restart service-name"
+  },
+  {
+      "question": "How do I enable a service to start on boot?",
+      "answer": "Run: sudo systemctl enable service-name"
+  },
+  {
+      "question": "How do I check journal logs?",
+      "answer": "Run: journalctl -xe"
+  },
+  {
+      "question": "How do I follow a log file?",
+      "answer": "Run: tail -f /path/to/logfile"
+  },
+  {
+      "question": "How do I compare two files?",
+      "answer": "Run: diff file1 file2"
+  },
+  {
+      "question": "How do I count lines in a file?",
+      "answer": "Run: wc -l filename"
+  },
+  {
+      "question": "How do I download a file with wget?",
+      "answer": "Run: wget https://example.com/file"
+  },
+  {
+      "question": "How do I download a file with curl?",
+      "answer": "Run: curl -O https://example.com/file"
+  },
+  {
+      "question": "How do I check SSL certificate?",
+      "answer": "Run: openssl s_client -connect example.com:443 -servername example.com | openssl x509 -noout -text"
+  },
+  {
+      "question": "How do I generate SSH keys?",
+      "answer": "Run: ssh-keygen -t rsa -b 4096"
+  },
+  {
+      "question": "How do I copy files over SSH?",
+      "answer": "Run: scp /local/file user@remote:/remote/path"
+  },
+  {
+      "question": "How do I mount a filesystem?",
+      "answer": "Run: sudo mount /dev/device /mount/point"
+  },
+  {
+      "question": "How do I check mounted filesystems?",
+      "answer": "Run: mount or df -h"
+  },
+  {
+      "question": "How do I check for package updates on Ubuntu?",
+      "answer": "Run: sudo apt update && sudo apt upgrade"
+  },
+  {
+      "question": "How do I install a .deb package?",
+      "answer": "Run: sudo dpkg -i package.deb && sudo apt install -f"
+  },
+  {
+      "question": "How do I list installed packages?",
+      "answer": "Run: apt list --installed or dpkg -l"
+  },
+  {
+      "question": "How do I remove a package?",
+      "answer": "Run: sudo apt remove package-name"
+  },
+  {
+      "question": "How do I clean package cache?",
+      "answer": "Run: sudo apt clean"
+  },
+  {
+      "question": "How do I add a user?",
+      "answer": "Run: sudo adduser username"
+  },
+  {
+      "question": "How do I add a user to a group?",
+      "answer": "Run: sudo usermod -aG groupname username"
+  },
+  {
+      "question": "How do I change user password?",
+      "answer": "Run: passwd username"
+  },
+  {
+      "question": "How do I switch user?",
+      "answer": "Run: su - username"
+  },
+  {
+      "question": "How do I check environment variables?",
+      "answer": "Run: printenv"
+  },
+  {
+      "question": "How do I set an environment variable?",
+      "answer": "Run: export VAR_NAME=value"
+  },
+  {
+      "question": "How do I make an environment variable persistent?",
+      "answer": "Add it to ~/.bashrc or /etc/environment"
+  },
+  {
+      "question": "How do I check the weather from CLI?",
+      "answer": "Run: curl wttr.in"
+  },
+  {
+      "question": "How do I check my public IP?",
+      "answer": "Run: curl ifconfig.me"
+  },
+  {
+      "question": "How do I create a zip file?",
+      "answer": "Run: zip archive.zip file1 file2"
+  },
+  {
+      "question": "How do I unzip a file?",
+      "answer": "Run: unzip file.zip"
+  },
+  {
+      "question": "How do I check battery status?",
+      "answer": "Run: upower -i /org/freedesktop/UPower/devices/battery_BAT0"
+  },
+  {
+      "question": "How do I check system uptime?",
+      "answer": "Run: uptime"
+  },
+  {
+      "question": "How do I flush DNS cache?",
+      "answer": "Run: sudo systemd-resolve --flush-caches (or the appropriate command for your OS)"
+  },
+  {
+      "question": "How do I check DNS records?",
+      "answer": "Run: dig example.com or nslookup example.com"
+  },
+  {
+      "question": "How do I trace network route?",
+      "answer": "Run: traceroute example.com or tracepath example.com"
+  },
+  {
+      "question": "How do I check port availability?",
+      "answer": "Run: netstat -tuln | grep port-number or ss -tuln | grep port-number"
+  },
+  {
+      "question": "How do I test if a port is open?",
+      "answer": "Run: telnet example.com port or nc -zv example.com port"
+  },
+  {
+      "question": "How do I create a RAM disk?",
+      "answer": "Run: sudo mount -t tmpfs -o size=1G tmpfs /mnt/ramdisk"
+  },
+  {
+      "question": "How do I check hardware information?",
+      "answer": "Run: lshw or sudo dmidecode"
+  },
+  {
+      "question": "How do I check GPU information?",
+      "answer": "Run: lspci | grep -i vga or nvidia-smi for Nvidia GPUs"
+  },
+  {
+      "question": "How do I list USB devices?",
+      "answer": "Run: lsusb"
+  },
+  {
+      "question": "How do I list PCI devices?",
+      "answer": "Run: lspci"
+  },
+  {
+      "question": "How do I check kernel modules?",
+      "answer": "Run: lsmod"
+  },
+  {
+      "question": "How do I load a kernel module?",
+      "answer": "Run: sudo modprobe module-name"
+  },
+  {
+      "question": "How do I generate a random password?",
+      "answer": "Run: openssl rand -base64 12 or head /dev/urandom | tr -dc A-Za-z0-9 | head -c 16"
+  },
+  {
+      "question": "How do I calculate a file hash?",
+      "answer": "Run: sha256sum filename or md5sum filename"
+  },
+  {
+      "question": "How do I base64 encode a string?",
+      "answer": "Run: echo -n 'string' | base64"
+  },
+  {
+      "question": "How do I base64 decode a string?",
+      "answer": "Run: echo -n 'encoded-string' | base64 --decode"
+  },
+  {
+      "question": "How do I get the length of a string?",
+      "answer": "Run: echo -n 'string' | wc -c"
+  },
+  {
+      "question": "How do I reverse a string?",
+      "answer": "Run: echo 'string' | rev"
+  },
+  {
+      "question": "How do I uppercase a string?",
+      "answer": "Run: echo 'string' | tr '[:lower:]' '[:upper:]'"
+  },
+  {
+      "question": "How do I lowercase a string?",
+      "answer": "Run: echo 'STRING' | tr '[:upper:]' '[:lower:]'"
+  },
+  {
+      "question": "How do I sort lines in a file?",
+      "answer": "Run: sort filename"
+  },
+  {
+      "question": "How do I remove duplicate lines?",
+      "answer": "Run: sort filename | uniq"
+  },
+  {
+      "question": "How do I count words in a file?",
+      "answer": "Run: wc -w filename"
+  },
+  {
+      "question": "How do I split a large file?",
+      "answer": "Run: split -b 100M largefile part-"
+  },
+  {
+      "question": "How do I merge split files?",
+      "answer": "Run: cat part-* > merged-file"
+  },
+  {
+      "question": "How do I create a blank file?",
+      "answer": "Run: touch filename"
+  },
+  {
+      "question": "How do I create a large test file?",
+      "answer": "Run: dd if=/dev/zero of=testfile bs=1M count=100"
+  },
+  {
+      "question": "How do I check file type?",
+      "answer": "Run: file filename"
+  },
+  {
+      "question": "How do I check binary dependencies?",
+      "answer": "Run: ldd /path/to/binary"
+  },
+  {
+      "question": "How do I check command location?",
+      "answer": "Run: which command or type command"
+  },
+  {
+      "question": "How do I see command documentation?",
+      "answer": "Run: man command or command --help"
+  },
+  {
+      "question": "How do I create a temporary file?",
+      "answer": "Run: mktemp"
+  },
+  {
+      "question": "How do I create a temporary directory?",
+      "answer": "Run: mktemp -d"
+  },
+  {
+      "question": "How do I check terminal size?",
+      "answer": "Run: stty size"
+  },
+  {
+      "question": "How do I clear the terminal?",
+      "answer": "Run: clear or Ctrl+L"
+  },
+  {
+      "question": "How do I exit a terminal session?",
+      "answer": "Run: exit or Ctrl+D"
+  },
+  {
+      "question": "How do I suspend a process?",
+      "answer": "Press Ctrl+Z"
+  },
+  {
+      "question": "How do I bring a suspended process to foreground?",
+      "answer": "Run: fg"
+  },
+  {
+      "question": "How do I run a process in background?",
+      "answer": "Add & at the end of command: command &"
+  },
+  {
+      "question": "How do I list background jobs?",
+      "answer": "Run: jobs"
+  },
+  {
+      "question": "How do I disconnect a process from terminal?",
+      "answer": "Run: nohup command & or use screen/tmux"
+  },
+  {
+      "question": "How do I create a screen session?",
+      "answer": "Run: screen -S session-name"
+  },
+  {
+      "question": "How do I list screen sessions?",
+      "answer": "Run: screen -ls"
+  },
+  {
+      "question": "How do I reattach to a screen session?",
+      "answer": "Run: screen -r session-id"
+  },
+  {
+      "question": "How do I create a tmux session?",
+      "answer": "Run: tmux new -s session-name"
+  },
+  {
+      "question": "How do I list tmux sessions?",
+      "answer": "Run: tmux ls"
+  },
+  {
+      "question": "How do I reattach to a tmux session?",
+      "answer": "Run: tmux attach -t session-name"
+  },
+  {
+      "question": "How do I detach from tmux?",
+      "answer": "Press Ctrl+B then D"
+  },
+  {
+      "question": "How do I scroll in tmux?",
+      "answer": "Press Ctrl+B then [ to enter copy mode, use arrow keys, then q to exit"
+  },
+  {
+      "question": "How do I split window in tmux?",
+      "answer": "Press Ctrl+B then % for vertical split or \" for horizontal split"
+  },
+  {
+      "question": "How do I switch between tmux panes?",
+      "answer": "Press Ctrl+B then arrow key"
+  },
+  {
+      "question": "How do I rename a tmux window?",
+      "answer": "Press Ctrl+B then ,"
+  },
+  {
+      "question": "How do I create a new tmux window?",
+      "answer": "Press Ctrl+B then c"
+  },
+  {
+      "question": "How do I switch between tmux windows?",
+      "answer": "Press Ctrl+B then 0-9"
+  },
+  {
+      "question": "How do I close a tmux pane?",
+      "answer": "Press Ctrl+B then x"
+  },
+  {
+      "question": "How do I reload tmux config?",
+      "answer": "Press Ctrl+B then : then type source-file ~/.tmux.conf"
+  },
+  {
+      "question": "How do I check tmux version?",
+      "answer": "Run: tmux -V"
+  }
+]
